@@ -1,5 +1,6 @@
 # Jenkins_demos
 Jenkins projects, installation guide, and troubleshooting 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Jenkins** <br>
 Jenkins is an open-source automation server that helps with continuous integration and delivery of software projects. It allows developers to automate various stages of the software development process. <br>
@@ -21,7 +22,6 @@ Jenkins is an open-source automation server that helps with continuous integrati
 name=Jenkins
 baseurl=https://pkg.jenkins.io/redhat-stable
 gpgcheck=1
-
 ```
 
 5. Install Jenkins: Run the command<br>
