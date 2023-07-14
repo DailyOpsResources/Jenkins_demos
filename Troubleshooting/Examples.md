@@ -30,7 +30,7 @@ ERROR: Build failed with an exception.
 ```
 
 
-**Example 2:**In this example, the pipeline's "Build" stage runs a Maven build script (mvn clean install). However, the build fails due to a compilation error. The error message indicates that the package com.example does not exist, causing the compilation failure.
+**Example 2:** In this example, the pipeline's "Build" stage runs a Maven build script (mvn clean install). However, the build fails due to a compilation error. The error message indicates that the package com.example does not exist, causing the compilation failure.
 ```
 Started by user Jessica Lee
 Running on Development Agent in /var/jenkins/workspace/Build and Deploy
@@ -51,7 +51,7 @@ ERROR: Build failed with an exception.
 ```
 
 
-**Example 3:**In this example, the "Build" stage runs a build script using the make command. However, the build fails with an error related to a missing file (file1.c). The console output displays the error message from the gcc compiler indicating that the file is not found, causing the build failure.
+**Example 3:** In this example, the "Build" stage runs a build script using the make command. However, the build fails with an error related to a missing file (file1.c). The console output displays the error message from the gcc compiler indicating that the file is not found, causing the build failure.
 ```
 Started by user Ryan Wilson
 Running on Development Agent in /var/jenkins/workspace/Build and Test
