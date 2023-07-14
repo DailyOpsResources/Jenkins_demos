@@ -1,5 +1,5 @@
-#Here are few examples of a failed console output in Jenkins <br>
-#In most of the cases you might want to get back to developer to fix the code, pluging erros, (or) fix network/permission issues.<br>
+**Here are few examples of a failed console output in Jenkins. <br>
+In most of the cases you might want to get back to developer to fix the code, plugin erros, (or) fix network/permission issues.<br>**
 
 **Example 1:** In this example, the Jenkins pipeline consists of two stages: "Setup" and "Tests." The setup script fails due to a missing module (xyz) when executing the npm install command. The failure is reported in the console output. Similarly, the test script (npm run test) in the "Tests" stage fails, causing the overall build to fail.
 ```
