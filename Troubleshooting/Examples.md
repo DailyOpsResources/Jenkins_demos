@@ -1,7 +1,7 @@
 **Here are few examples of a failed console output in Jenkins. <br>
 In most of the cases you might want to get back to developer to fix the code, plugin erros, (or) fix network/permission issues.<br>**
 
-**Example 1:** In this example, the Jenkins pipeline consists of two stages: "Setup" and "Tests." The setup script fails due to a missing module (xyz) when executing the npm install command. The failure is reported in the console output. Similarly, the test script (npm run test) in the "Tests" stage fails, causing the overall build to fail.
+1. In this example, the Jenkins pipeline consists of two stages: "Setup" and "Tests." The setup script fails due to a missing module (xyz) when executing the npm install command. The failure is reported in the console output. Similarly, the test script (npm run test) in the "Tests" stage fails, causing the overall build to fail.
 ```
 Started by user Alex Thompson
 Running on Production Agent in /var/jenkins/workspace/Run Tests
@@ -30,7 +30,7 @@ ERROR: Build failed with an exception.
 ```
 
 
-**Example 2:** In this example, the pipeline's "Build" stage runs a Maven build script (mvn clean install). However, the build fails due to a compilation error. The error message indicates that the package com.example does not exist, causing the compilation failure.
+2. In this example, the pipeline's "Build" stage runs a Maven build script (mvn clean install). However, the build fails due to a compilation error. The error message indicates that the package com.example does not exist, causing the compilation failure.
 ```
 Started by user Jessica Lee
 Running on Development Agent in /var/jenkins/workspace/Build and Deploy
@@ -51,7 +51,7 @@ ERROR: Build failed with an exception.
 ```
 
 
-**Example 3:** In this example, the "Build" stage runs a build script using the make command. However, the build fails with an error related to a missing file (file1.c). The console output displays the error message from the gcc compiler indicating that the file is not found, causing the build failure.
+3. In this example, the "Build" stage runs a build script using the make command. However, the build fails with an error related to a missing file (file1.c). The console output displays the error message from the gcc compiler indicating that the file is not found, causing the build failure.
 ```
 Started by user Ryan Wilson
 Running on Development Agent in /var/jenkins/workspace/Build and Test
@@ -72,7 +72,7 @@ ERROR: Build failed with an exception.
 ```
 
 
-Example 4: In this example, the "Tests" stage runs integration tests using pytest with the --integration flag. However, one of the tests fails with an assertion error. The console output displays the assertion error message, indicating that the test expected a response of 'success' but received 'failure' instead.
+4. In this example, the "Tests" stage runs integration tests using pytest with the --integration flag. However, one of the tests fails with an assertion error. The console output displays the assertion error message, indicating that the test expected a response of 'success' but received 'failure' instead.
 ```
 Started by user Olivia Green
 Running on Development Agent in /var/jenkins/workspace/Run Integration Tests
